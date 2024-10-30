@@ -1,0 +1,280 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamster Hotel</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-links">
+        <a href="#">Overview</a>
+        <a href="#rooms-section">Rooms</a>
+        <a href="#packages-section">Packages</a>
+        <a href="#" class="logo">
+          <img src="/assets/Logo.png" alt="La Petite Maison" />
+        </a>
+        <a href="#amenities-section">Amenities</a>
+        <a href="#reserve">Contact</a>
+        <a href="#reserve" class="reserve-btn">Reserve</a>
+      </div>
+    </nav>
+    <!--  -->
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-overlay">
+        <div class="container">
+          <h1 class="display-4 mb-4">Run on the wheel of luxury</h1>
+          <p class="lead">
+            Explore everything the beach has to offer at our retreat resort.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <img
+              src="/assets/hamsterhomejpg.jpg"
+              -width="400"
+              height="500"
+              alt="hamster"
+              class="image-fluid"
+            />
+          </div>
+          <div class="col-md-8">
+            <h2 class="mb-4">Welcome to a hamster's paradise</h2>
+            <p class="lead">
+              Nestled in the heart of Santa California, La Petite Maison is a
+              luxury hotel designed for the small running crowd with
+              discriminating artistic taste. Escape to the warm comforts of
+              running rooms, a relaxing spa, and a pool with a beach side view.
+            </p>
+            <div class="badge-container">
+              <img
+                src="/assets/awardfinest.png"
+                alt="Finest Quality"
+                class="badge-icon"
+              />
+              <img
+                src="/assets/awardsatisfaction.png"
+                alt="Satisfaction"
+                class="badge-icon"
+              />
+              <img
+                src="/assets/awardgenuine.png"
+                alt="Genuine"
+                class="badge-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms-section">
+      <div id="rooms-section" class="container">
+        <h2 class="text-center mb-5">Our Rooms</h2>
+        <div class="row g-4">
+          <!-- Queen Room -->
+          <div class="col-md-4">
+            <div class="room-card">
+              <img src="/assets/room1.jpg" alt="Queen Room" />
+              <div class="card-body">
+                <h3>Queen Room</h3>
+                <p class="text-muted">550 SQ FT room with city view</p>
+                <ul class="list-unstyled">
+                  <li>• One queen size bed</li>
+                  <li>• Desk area, fireplace and large balcony</li>
+                  <li>• Small kitchen with a refrigerator and stove</li>
+                </ul>
+                <button class="reserve-btn">Reserve</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- King Room -->
+          <div class="col-md-4">
+            <div class="room-card">
+              <img src="/assets/room2.jpg" alt="King Room" />
+              <div class="card-body">
+                <h3>King Room</h3>
+                <p class="text-muted">650 SQ FT room with beach view</p>
+                <ul class="list-unstyled">
+                  <li>• One king size bed</li>
+                  <li>• Desk area, fireplace and large balcony</li>
+                  <li>• Mini kitchen with a wet pantry and stove</li>
+                </ul>
+                <button class="reserve-btn">Reserve</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Beach Side Suite -->
+          <div class="col-md-4">
+            <div class="room-card">
+              <img src="/assets/room3.jpg" alt="Beach Side Suite" />
+              <div class="card-body">
+                <h3>Beach Side Suite</h3>
+                <p class="text-muted">1500 SQ FT suite with beach view</p>
+                <ul class="list-unstyled">
+                  <li>• One California king size bed</li>
+                  <li>• Second room with fireplace, hot tub, and balcony</li>
+                  <li>• Full kitchen with a refrigerator, stove, and island</li>
+                </ul>
+                <button class="reserve-btn">Reserve</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="packages-section">
+      <!-- Packages-Section -->
+      <div class="container">
+        <h2 class="packages-section">Packages</h2>
+
+        <div class="package-grid">
+          <!-- Beach Wedding Package -->
+          <div class="package-item">
+            <div class="package-image">
+              <img
+                src="/assets/hamsterwedding.jpg"
+                alt="Beach Wedding Package"
+              />
+            </div>
+            <div class="package-content">
+              <h3 class="package-title">Beach Wedding package</h3>
+              <p class="package-price">Starting US $1,500.00</p>
+              <p class="package-description">
+                Feel the warmth of the beach as the flames in your hearts ignite
+                during our romantic beach side wedding. All wedding packages
+                include catering, an open bar, and one tier wedding cake (9"
+                Vanilla standard cake). A private dinner for your closest family
+                members and friends will be provided after the ceremony.
+              </p>
+            </div>
+          </div>
+
+          <!-- Full Bloom Package -->
+          <div class="package-item reverse">
+            <div class="package-image">
+              <img src="/assets/hamsterspring.jpg" alt="Full Bloom Package" />
+            </div>
+            <div class="package-content">
+              <h3 class="package-title">Full Bloom Package</h3>
+              <p class="package-price">Starting US $1,000.00</p>
+              <p class="package-description">
+                Enjoy the shade of our cherry trees as you join us during our
+                spring time celebration. We invite you to our orchards for
+                cherry, strawberry, and apple picking that's open all day. We
+                end each evening with fresh, vegetable centric dinners along
+                with a live show from local musicians.
+              </p>
+            </div>
+          </div>
+
+          <!-- Cheese and Seed Tour Package -->
+          <div class="package-item">
+            <div class="package-image">
+              <img
+                src="/assets/hamstercheese.jpg"
+                alt="Cheese and Seed Tour Package"
+              />
+            </div>
+            <div class="package-content">
+              <h3 class="package-title">Cheese and Seed Tour Package</h3>
+              <p class="package-price">Starting US $1,200.00</p>
+              <p class="package-description">
+                Immerse yourself in the flavors of Cavia with our Cheese and
+                Seed tour. We consulted with connoisseurs from around the globe
+                to bring you the best flavors that nature has to offer, and
+                create our cheeses right here at our local creamery. Cheese and
+                seeds are served all day and nightly spa treatment is provided
+                after dinner.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <section class="amenities-section">
+      <div id="amenities-section"></div>
+      <div  class="container">
+        <h2 class="text-center mb-5">Amenities</h2>
+        <div class="row g-4">
+          <p class="amenities-text text-center">Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay we can provide.</p>
+           <div class="image-row">
+          <img src="/assets/breakfast.png"
+        <div>
+          <img src="/assets/valet.png"
+      </div>
+          <img src="/assets/pool.png"
+          <div>
+          <img src="/assets/24hour.png"
+        </div>
+        <div>
+           </div>
+     </div>
+     </section>
+    </div>
+  </div>
+</div>
+<section class="reserve-section" id="reserve">
+  <div class="container">
+    <h2 class="text-center">Reserve a Room</h2>
+    <div class="reserve-form-container">
+      <div class="form-group">
+        <input type="date" class="form-input" placeholder="Check In">
+        <input type="date" class="form-input" placeholder="Check Out">
+        <input type="number" class="form-input" placeholder="Number of Guests">
+        <select class="form-input">
+          <option value="">Room Type</option>
+          <option value="queen">Queen Room</option>
+          <option value="king">King Room</option>
+          <option value="suite">Beach Side Suite</option>
+        </select>
+        <button class="check-availability">Check Availability</button>
+       
+      </div>
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<section>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <img src="/assets/Logo.png" alt="La Petite Maison" class="footer-logo">
+        <address class="footer-address">
+          123 Sunflower Scroll Rd., Carla, California 95206
+        </address>
+        <p class="footer-copyright">
+          © LA PETITE MAISON HOTELS LIMITED 1959-2016. ALL RIGHTS RESERVED.
+        </p>
+      </div>
+    </div>
+  </footer>
+</section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
