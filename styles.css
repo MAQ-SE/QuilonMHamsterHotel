@@ -5,6 +5,7 @@
     box-sizing: border-box;
   }
   
+  
   body {
     font-family: 'Dosis', sans-serif;
     line-height: 1.6;
@@ -254,7 +255,7 @@
       min-height: 100px;
     }
   
-    .package-item,
+    
     .package-item.reverse {
       flex-direction: column;
       gap: 24px;
@@ -389,11 +390,18 @@ margin-right: 23px;
   color: #a0aec0;
 }
 
+@media (max-width: 458px) {
 .reserve-picture{
-
+max-height: fit-content;
+max-width: fit-content;
   position: relative;
   right: 65px;
 }
+}
 
-  
+@media (max-width: 468px) {
+  .reserve-section{
 
+
+  }
+}
