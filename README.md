@@ -1,2 +1,2 @@
 // Your name Mason Quilon// Date Revised: This is the last day you saved. 11/1/2024 // Exercise or Lab name Hamster Hotel // I made a website resembling the Hamster Hotel created before me.
-//peer reivew
+//peer reivew: Chris Wells-Hott Comment: Great job creating a desktop verson of the website, it's spot on. I like how you used flex box. I hope I explained that correctly. Keep at it. Try to practice making the phone version.
